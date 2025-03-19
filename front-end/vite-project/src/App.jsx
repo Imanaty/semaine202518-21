@@ -8,14 +8,14 @@ function App() {
   
 
   return (
-    <>
+    <div className={"app"}>
       <Nav />
       <Routes>
         <Route path="/" element={<HomePage />} />
         {/* <Route path="/" element={} />
         <Route path="/" element={} /> */}
       </Routes>
-    </>
+    </div>
   )
 }
 
