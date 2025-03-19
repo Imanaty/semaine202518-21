@@ -1,11 +1,11 @@
-
+import PlayPage from "../Play"
 
 
 const HomePage = () => {
     return (
         <div className="HomePageBlock">
             <h2>Jouez à notre jeu de Yam's pour tenter de remporter des lots !</h2>
-            {/* Boutton Jouer */}
+            {/* Boutton Jouer page : PlayPage*/}
 
             <h2>Lots restants :</h2>
             <div className="LotsRestantsBlock">
